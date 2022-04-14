@@ -74,7 +74,7 @@ def compare_sort(sizes=[200, 100, 1000, 500, 5000, 2000, 20000, 10000, 100000, 5
 def print_results(results):
     """ change as needed for comparisons """
     print(tabulate.tabulate(results,
-                            headers=['n', 'qsort-fixed-pivot', 'qsort-random-pivot', 'tim_sort'],
+                            headers=['n', 'qsort-fixed-pivot', 'qsort-random-pivot', 'tim_sort],
                             floatfmt=".3f",
                             tablefmt="github"))
 
