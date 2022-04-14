@@ -66,6 +66,7 @@ def compare_sort(sizes=[200, 100, 1000, 500, 5000, 2000, 20000, 10000, 100000, 5
             len(mylist),
             time_search(qsort_fixed_pivot, mylist),
             time_search(qsort_random_pivot, mylist),
+            time_search(tim_sort, mylist)
         ])
     return result
     ###
